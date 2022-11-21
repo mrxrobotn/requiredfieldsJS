@@ -6,12 +6,12 @@ function insertion()
 	verifinput();
 	if (b==true)
 	{
-		if(confirme("voulez vous vraiment ajouter ces infos?"))
+		if(confirme("Do you really want to add this informations?"))
 		{
 
 		}
 		else 
-			alert("vous avez annule l'ajout");	
+			alert("You canceled the addition");	
 	}
 }
 
@@ -26,7 +26,7 @@ function verifinput()
 				{
 					b=false;
 					t[i].classList.add("erreur");
-					s[i].innerHTML="ce champ est obligatoire";	
+					s[i].innerHTML="This field is required";	
 				}
 				else 
 				{
